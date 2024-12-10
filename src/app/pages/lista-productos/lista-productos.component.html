@@ -1,0 +1,30 @@
+<h1>Pipes <small>Angular</small></h1>
+<hr>
+<div class="row">
+    <div class="col">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>producto</th>
+                    <th>Img</th>
+                    <th>Salida</th>
+                    <th>Precios</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of productos ">
+                    <td>{{item.nombre}}</td>
+                    <td>{{item.img}}</td>
+                    <td>{{item.precio}}</td>
+                </tr>
+                
+            
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
